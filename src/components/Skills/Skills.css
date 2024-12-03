@@ -1,0 +1,81 @@
+.proColor1 {
+  background-color: #2c98f0 !important;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.proColor2 {
+  background-color: #f9bf3f !important;
+  width: 85% !important;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.proColor3 {
+  background-color: #2fa499 !important;
+  width: 70% !important;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.proColor4 {
+  background-color: #ec5453 !important;
+  width: 60% !important;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.proColor5 {
+  background-color: #a84cb8 !important;
+  width: 85% !important;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.proColor6 {
+  background-color: #4054b2 !important;
+  width: 80%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.progress,
+.progress-stacked {
+  --bs-progress-height: 0.5rem;
+}
+.progress-section1 {
+  position: absolute;
+  top: 0px;
+  left: 70%;
+  color: #2c98f0;
+  font-weight: 700;
+}
+.progress-section2 {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  color: #f9bf3f;
+  font-weight: 700;
+}
+.progress-section3 {
+  position: absolute;
+  top: 75%;
+  left: 65%;
+  color: #2fa499;
+  font-weight: 700;
+}
+.progress-section4 {
+  position: absolute;
+  top: 0px;
+  left: 55%;
+  color: #ec5453;
+  font-weight: 700;
+}
+.progress-section5 {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  color: #a84cb8;
+  font-weight: 700;
+}
+.progress-section6 {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  color: #4054b2;
+  font-weight: 700;
+}
