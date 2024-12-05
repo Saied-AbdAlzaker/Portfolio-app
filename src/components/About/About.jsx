@@ -22,7 +22,7 @@ export default function About() {
               line of blind text by the name of Lorem Ipsum decided to leave for
               the far World of <br /> Grammar.
             </p>
-            <div className="row">
+            <div className="row g-4">
               <div className="col-md-3 card col-sm-12 about-card-one">
                 <i class="fa-regular fa-lightbulb fa-2x mb-3"></i>
                 <div className="text-center">
