@@ -57,7 +57,7 @@ export default function Skills() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 position-relative">
+              <div className="col-md-6 sills-content position-relative">
                 <h6 className="fw-6">jQuery</h6>
                 <div
                   className="progress"

@@ -14,7 +14,8 @@ export default function Sidebar() {
             </NavLink>
           </h1>
           <p className="side-para">
-            <span className="text-info menu-item">UI/UX/Designer</span> in <br />
+            <span className="text-info menu-item">UI/UX/Designer</span> in
+            <br />
             Philippines
           </p>
         </div>

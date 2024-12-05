@@ -22,26 +22,26 @@ export default function About() {
               line of blind text by the name of Lorem Ipsum decided to leave for
               the far World of <br /> Grammar.
             </p>
-            <div className="d-flex justify-content-between gap-4">
-              <div className="shadow-lg w-25 about-card-one">
+            <div className="row">
+              <div className="col-md-3 card col-sm-12 about-card-one">
                 <i class="fa-regular fa-lightbulb fa-2x mb-3"></i>
                 <div className="text-center">
                   <p>Graphic Design</p>
                 </div>
               </div>
-              <div className="shadow-lg w-25 about-card-two">
+              <div className="col-md-3 card col-sm-12 about-card-two">
                 <i class="fa-solid fa-earth-africa fa-2x mb-3"></i>
                 <div className="text-center">
                   <p>Web Design</p>
                 </div>
               </div>
-              <div className="shadow-lg w-25 about-card-three">
+              <div className="col-md-3 card col-sm-12 about-card-three">
                 <i class="fa-solid fa-database fa-2x mb-3"></i>
                 <div className="text-center">
                   <p>Software</p>
                 </div>
               </div>
-              <div className="shadow-lg w-25 about-card-four">
+              <div className="col-md-3 card col-sm-12 about-card-four">
                 <i class="fa-solid fa-mobile-screen-button fa-2x mb-3"></i>
                 <div className="text-center">
                   <p>Application</p>
