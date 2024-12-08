@@ -9,7 +9,7 @@ export default function Work() {
           <div className="section-caption">
             <p className="section-caption-text">MY WORK</p>
             <h3>RECENT WORK</h3>
-            <div>
+            <div className="ms-3">
               <NavLink
                 to="graphic-design"
                 className="text-decoration-none fs-6"
@@ -38,7 +38,9 @@ export default function Work() {
                 Software
               </NavLink>
             </div>
-            <Outlet/>
+            <div className="container">
+              <Outlet />
+            </div>
           </div>
         </div>
       </section>

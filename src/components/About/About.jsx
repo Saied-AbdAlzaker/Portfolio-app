@@ -22,30 +22,30 @@ export default function About() {
               line of blind text by the name of Lorem Ipsum decided to leave for
               the far World of <br /> Grammar.
             </p>
-            <div className="row g-4">
-              <div className="col-md-3 card col-sm-12 about-card-one">
-                <i class="fa-regular fa-lightbulb fa-2x mb-3"></i>
-                <div className="text-center">
-                  <p>Graphic Design</p>
-                </div>
+          </div>
+          <div className="about-cart">
+            <div className="shadow-sm card about-card-one">
+              <i className="fa-regular fa-lightbulb fa-2x mb-3"></i>
+              <div className="text-center">
+                <p>Graphic Design</p>
               </div>
-              <div className="col-md-3 card col-sm-12 about-card-two">
-                <i class="fa-solid fa-earth-africa fa-2x mb-3"></i>
-                <div className="text-center">
-                  <p>Web Design</p>
-                </div>
+            </div>
+            <div className="shadow-sm card mx-3 about-card-two">
+              <i class="fa-solid fa-earth-africa fa-2x mb-3"></i>
+              <div className="text-center">
+                <p>Web Design</p>
               </div>
-              <div className="col-md-3 card col-sm-12 about-card-three">
-                <i class="fa-solid fa-database fa-2x mb-3"></i>
-                <div className="text-center">
-                  <p>Software</p>
-                </div>
+            </div>
+            <div className="shadow-sm card about-card-three">
+              <i class="fa-solid fa-database fa-2x mb-3"></i>
+              <div className="text-center">
+                <p>Software</p>
               </div>
-              <div className="col-md-3 card col-sm-12 about-card-four">
-                <i class="fa-solid fa-mobile-screen-button fa-2x mb-3"></i>
-                <div className="text-center">
-                  <p>Application</p>
-                </div>
+            </div>
+            <div className="shadow-sm card ms-3 about-card-four">
+              <i class="fa-solid fa-mobile-screen-button fa-2x mb-3"></i>
+              <div className="text-center">
+                <p>Application</p>
               </div>
             </div>
           </div>

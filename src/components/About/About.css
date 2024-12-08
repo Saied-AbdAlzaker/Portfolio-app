@@ -1,8 +1,12 @@
-
+.about-cart {
+  display: flex;
+  justify-content: center;
+}
 
 .about-card-one {
   border-bottom: 2px solid #2c98f0;
   padding: 2.5rem 0px;
+  width: 20%;
 }
 .about-card-one i {
   color: #2c98f0;
@@ -11,6 +15,7 @@
 .about-card-two {
   border-bottom: 2px solid #ec5453;
   padding: 2.5rem 0px;
+  width: 20%;
 }
 .about-card-two i {
   color: #ec5453;
@@ -19,6 +24,7 @@
 .about-card-three {
   border-bottom: 2px solid #f9bf3f;
   padding: 2.5rem 0px;
+  width: 20%;
 }
 .about-card-three i {
   color: #f9bf3f;
@@ -27,8 +33,28 @@
 .about-card-four {
   border-bottom: 2px solid #a84cb8;
   padding: 2.5rem 0px;
+  width: 20%;
 }
 .about-card-four i {
   color: #a84cb8;
   margin-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-card-one,
+  .about-card-two,
+  .about-card-three,
+  .about-card-four {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .about-card-four {
+    margin-bottom: 20px;
+  }
 }
